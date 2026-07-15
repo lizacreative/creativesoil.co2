@@ -3,6 +3,10 @@
   "trailingSlash": false,
   "rewrites": [
     {
+      "source": "/site/:path*",
+      "destination": "/sites/:path*"
+    },
+    {
       "source": "/ideas/:post",
       "destination": "/ideas/:post.html"
     }
